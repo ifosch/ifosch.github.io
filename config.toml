@@ -5,7 +5,7 @@ theme = "hugo-identity-theme"
 title = "Ignasi Fosch"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-XXXXX-Y"
+googleAnalytics = "UA-85023156-1"
 
 [params]
 	
@@ -17,7 +17,7 @@ googleAnalytics = "UA-XXXXX-Y"
 	favicon = "favicon.ico"
 	appletouchicon = "apple-touch-icon-precomposed.png"
 	background = "bg1.jpg"
-	avatar = "jane.jpg"
+	avatar = "ifosch_mp.png"
 
   # Custom styling
   # To customize the styling of this theme, uncomment and edit the following line to point 
@@ -27,8 +27,8 @@ googleAnalytics = "UA-XXXXX-Y"
 	
 	# Personal settings
 	
-    name = "Jane Doe"
-	position = "Senior Psychonautics Engineer"
+  name = "Ignasi Fosch"
+	position = "System administrator with a touch of DevOps and Agile"
 	
 	# Extra stuff
 	# NOTE: There is little different extra stuff in original Identity theme by HTML5 UP.
@@ -66,19 +66,19 @@ googleAnalytics = "UA-XXXXX-Y"
 	[[params.social]]
 		title = "Twitter"
 		icon = "fa-twitter"
-		link = "#"
+		link = "https://twitter.com/ifosch"
 
 	[[params.social]]
-		title = "Instagram"
-		icon = "fa-instagram"
-		link = "#"
+		title = "GitHub"
+		icon = "fa-github"
+		link = "https://github.com/ifosch"
 		
 	[[params.social]]
-		title = "Facebook"
-		icon = "fa-facebook"
-		link = "#"
+		title = "LinkedIn"
+		icon = "fa-linkedin"
+		link = "https://es.linkedin.com/in/ifosch"
 	
 	# Footer settings
 	[params.footer]
-		copyright = "Jane Doe"
+		copyright = "Ignasi Fosch"
 		
