@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ignasi Fosch</title>
+    <link>http://www.natx.cat/index.xml</link>
+    <description>Recent content on Ignasi Fosch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ca-es</language>
+    <atom:link href="http://www.natx.cat/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
