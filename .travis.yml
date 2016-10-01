@@ -11,17 +11,15 @@ install:
   - go get -u github.com/spf13/hugo
 
 script:
-  - git submodule init
-  - git submodule update
   - rm -rf public
   - hugo -t hugo-identity-theme
   - git config --global user.email "ignasi.fosch+travis@gmail.com"
   - git config --global user.name "Travis for natx.cat"
   - git checkout --orphan master
   - cp -R public/* .
-  - cp static/images/favicon.ico .
   - rm -rf public bin content static .gitignore .travis.yml config.toml README.md themes
-  - echo "natx.cat" > CNAME
+  - echo "www.natx.cat" > CNAME
   - git add .
-  - git commit -m "Publishing: $(git log | head -5 | tail -1 | tr -s ' ')"
+  - git rm -rf content themes config.toml .gitmodules .travis.yml
+  - git commit -m "Publishing"
   - git push "https://${GH_TOKEN}@github.com/ifosch/ifosch.github.io.git" master -f >/dev/null 2>&1

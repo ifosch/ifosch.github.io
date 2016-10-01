@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "http://replace-this-with-your-hugo-site.com" #without ending slash
-languageCode = "en-us"
+baseurl = "http://www.natx.cat" #without ending slash
+languageCode = "ca-es"
 theme = "hugo-identity-theme"
-title = "Hugo Identity Theme"
+title = "Ignasi Fosch"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-XXXXX-Y"
